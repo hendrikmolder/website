@@ -1,0 +1,14 @@
+***REMOVED***
+  "database": ***REMOVED***
+    "rules": "database.rules.json"
+  ***REMOVED***,
+  "hosting": ***REMOVED***
+    "public": "dist",
+    "rewrites": [
+      ***REMOVED***
+        "source": "**",
+        "destination": "/index.html"
+      ***REMOVED***
+    ]
+  ***REMOVED***
+***REMOVED***

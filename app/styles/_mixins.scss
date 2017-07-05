@@ -1,0 +1,20 @@
+/* Large Devices, Wide Screens */
+@mixin xldesktop ***REMOVED***
+  @media only screen and (max-width : 1200px) ***REMOVED*** @content; ***REMOVED***
+***REMOVED***
+
+@mixin desktop ***REMOVED***
+  @media only screen and (max-width : 1200px) ***REMOVED*** @content; ***REMOVED***
+***REMOVED***
+
+@mixin smalldesktop ***REMOVED***
+  @media only screen and (max-width : 992px) ***REMOVED*** @content; ***REMOVED***
+***REMOVED***
+
+@mixin tablet ***REMOVED***
+  @media only screen and (max-width : 768px) ***REMOVED*** @content; ***REMOVED***
+***REMOVED***
+
+@mixin mobile ***REMOVED***
+  @media only screen and (max-width : 480px) ***REMOVED*** @content; ***REMOVED***
+***REMOVED***

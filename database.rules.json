@@ -1,0 +1,6 @@
+***REMOVED***
+  "rules": ***REMOVED***
+    ".read": "auth != null",
+    ".write": "auth != null"
+  ***REMOVED***
+***REMOVED***

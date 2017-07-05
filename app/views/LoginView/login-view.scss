@@ -1,0 +1,41 @@
+@import '../../styles/main.scss';
+
+.container ***REMOVED***
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+***REMOVED***
+
+.content ***REMOVED***
+  width: em(800px);
+  height: auto;
+
+  display: flex;
+  flex-direction: column;
+
+  align-self: center;
+  align-items: center;
+
+  .segment ***REMOVED***
+    width: em(250px); 
+    min-height: em(300px);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    .loginForm ***REMOVED***
+      width: 80%;
+      height: 100%;
+
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-self: center;
+    ***REMOVED***
+  ***REMOVED***
+***REMOVED***

@@ -1,0 +1,53 @@
+@import '../../styles/main.scss';
+@import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
+
+.navBar ***REMOVED***
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: em(180px, 14px);
+
+    color: #2b2b36;
+    font-size: em(14px);
+    text-transform: capitalize;
+    font-family: $brand-font;
+    font-weight: 400;
+
+    .navLogo ***REMOVED***
+      width: auto;
+      height: em(50px);
+    ***REMOVED***
+
+    .container ***REMOVED***
+      width: em(800px, 14px);
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+      .linkBox ***REMOVED***
+        width: auto;
+        height: 100%;
+
+        display: flex;
+
+        >:nth-child(n+1) ***REMOVED***
+          margin: 0 em(10px, 14px);
+          padding: em(5px, 14px) em(5px, 14px);
+        ***REMOVED***
+
+        a ***REMOVED***
+          color: #2b2b36;
+          text-decoration: none;
+
+          &:hover ***REMOVED***
+            color: #0868c9;
+          ***REMOVED***
+        ***REMOVED***
+      ***REMOVED***
+    ***REMOVED***
+  ***REMOVED***
