@@ -10,33 +10,36 @@ import Navbar from '../../components/Navbar'
 const styles = require('./login-view.scss')
 
 @firebaseConnect([
-  '/notes'
+  '/notes',
 ])
 @connect(
   (***REMOVED*** firebase ***REMOVED***) => (***REMOVED***
-    notes: dataToJS(firebase, '/notes')
-  ***REMOVED***)
+    notes: dataToJS(firebase, '/notes'),
+  ***REMOVED***),
 )
 export default class LoginView extends Component ***REMOVED***
 
   static PropTypes = ***REMOVED***
-    notes:    PropTypes.object,
-    firebase: PropTypes.object
+    notes: PropTypes.object,
+    firebase: PropTypes.object,
   ***REMOVED***
 
   constructor(props) ***REMOVED***
     super(props)
     this.state = ***REMOVED***
-      displayLogin: true
+      displayLogin: true,
     ***REMOVED***
 
     this.renderLogin = this.renderLogin.bind(this)
     this.userLogin = this.userLogin.bind(this)
   ***REMOVED***
 
+  userLogin() ***REMOVED***
+    this.setState(***REMOVED*** displayLogin: false ***REMOVED***)
+  ***REMOVED***
 
   renderLogin() ***REMOVED***
-    return(
+    return (
       <div className=***REMOVED***styles.loginForm***REMOVED***>
         <Form>
           <Form.Field>
@@ -48,11 +51,11 @@ export default class LoginView extends Component ***REMOVED***
             <input placeholder='Password' type='password' name='password' required/>
           </Form.Field>
           <center>
-            <Button 
-              color='blue' 
-              icon='sign in' 
-              labelPosition='left' 
-              type='submit' 
+            <Button
+              color='blue'
+              icon='sign in'
+              labelPosition='left'
+              type='submit'
               content='Log In'
               onClick=***REMOVED***this.userLogin***REMOVED***
             />
@@ -62,12 +65,7 @@ export default class LoginView extends Component ***REMOVED***
     )
   ***REMOVED***
 
-  userLogin() ***REMOVED***
-    this.setState(***REMOVED*** displayLogin: false ***REMOVED***)
-  ***REMOVED***
-
   render() ***REMOVED***
-    console.log("PROPS", this.props)
     return (
       <div className=***REMOVED***styles.container***REMOVED***>
         <Navbar />

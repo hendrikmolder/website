@@ -14,8 +14,7 @@ export default class LandingView extends Component ***REMOVED***
           <center><img src=***REMOVED***logo***REMOVED*** className=***REMOVED***styles.logo***REMOVED*** /></center>
           <Divider />
           <div className=***REMOVED***styles.linkBox***REMOVED***>
-            <Link to='/resume'>Resume</Link>
-            <Link to='/'>Notes</Link>
+            <Link to='/about'>About Me</Link>
             <a href='https://github.com/hendrikmolder'>Github</a>
             <a href='https://linkedin.com/in/hendrikmolder'>LinkedIn</a>
             <a href='https://twitter.com/hendrikmolder'>Twitter</a>

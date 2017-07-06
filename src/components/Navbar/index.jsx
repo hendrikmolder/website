@@ -13,7 +13,7 @@ export default class Navbar extends Component ***REMOVED***
           <Link to='/'><img src=***REMOVED***logo***REMOVED*** className=***REMOVED***styles.navLogo***REMOVED*** /></Link>
           <div className=***REMOVED***styles.linkBox***REMOVED***>
             <Link to='/'>home</Link>
-            <Link to='/resume'>resume</Link>
+            <Link to='/about'>about me</Link>
             <Link to='/notes'>notes</Link>
             <Link to='/contact'>contact</Link>
           </div>

@@ -32,8 +32,12 @@
       .linkBox ***REMOVED***
         width: auto;
         height: 100%;
-
         display: flex;
+
+        @include tablet ***REMOVED***
+          flex-direction: column;
+          text-align: right;
+        ***REMOVED***
 
         >:nth-child(n+1) ***REMOVED***
           margin: 0 em(10px, 14px);

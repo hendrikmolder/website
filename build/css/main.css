@@ -1,0 +1,387 @@
+@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);@import url(https://fonts.googleapis.com/css?family=Allerta);@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,400,700&subset=latin-ext);@import url(https://fonts.googleapis.com/css?family=Oxygen:400,700);/* Large Devices, Wide Screens */
+.navbar__navBar__3VjPM ***REMOVED***
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 12.85714em;
+  color: #2b2b36;
+  font-size: 1.16667em;
+  text-transform: capitalize;
+  font-family: "Oxygen", sans-serif;
+  font-weight: 400; ***REMOVED***
+  .navbar__navBar__3VjPM .navbar__navLogo__1O8H_ ***REMOVED***
+    width: auto;
+    height: 4.16667em; ***REMOVED***
+  .navbar__navBar__3VjPM .navbar__container__2C7b6 ***REMOVED***
+    width: 57.14286em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; ***REMOVED***
+    .navbar__navBar__3VjPM .navbar__container__2C7b6 .navbar__linkBox__GCfd9 ***REMOVED***
+      width: auto;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex; ***REMOVED***
+      @media only screen and (max-width: 768px) ***REMOVED***
+        .navbar__navBar__3VjPM .navbar__container__2C7b6 .navbar__linkBox__GCfd9 ***REMOVED***
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          text-align: right; ***REMOVED*** ***REMOVED***
+      .navbar__navBar__3VjPM .navbar__container__2C7b6 .navbar__linkBox__GCfd9 > :nth-child(n+1) ***REMOVED***
+        margin: 0 0.71429em;
+        padding: 0.35714em 0.35714em; ***REMOVED***
+      .navbar__navBar__3VjPM .navbar__container__2C7b6 .navbar__linkBox__GCfd9 a ***REMOVED***
+        color: #2b2b36;
+        text-decoration: none; ***REMOVED***
+        .navbar__navBar__3VjPM .navbar__container__2C7b6 .navbar__linkBox__GCfd9 a:hover ***REMOVED***
+          color: #0868c9; ***REMOVED***
+/* Large Devices, Wide Screens */
+.contact-view__container__x6D_f ***REMOVED***
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-line-pack: center;
+  align-content: center; ***REMOVED***
+
+.contact-view__content__1M1cW ***REMOVED***
+  width: 66.66667em;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+  align-self: center; ***REMOVED***
+  .contact-view__content__1M1cW .contact-view__segment__zFbMZ ***REMOVED***
+    width: 100%;
+    min-height: 16.66667em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; ***REMOVED***
+    .contact-view__content__1M1cW .contact-view__segment__zFbMZ .contact-view__loader__1oOB6 ***REMOVED***
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center; ***REMOVED***
+/* Large Devices, Wide Screens */
+.landing-view__container__wHTId ***REMOVED***
+  width: 100%;
+  height: 100%;
+  background-color: rgba(48, 48, 48, 0.06);
+  background-size: cover;
+  background-position: center center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; ***REMOVED***
+
+.landing-view__content__10EI9 ***REMOVED***
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-item-align: center;
+  align-self: center;
+  width: auto;
+  height: auto;
+  color: #2b2b36; ***REMOVED***
+  .landing-view__content__10EI9 h1 ***REMOVED***
+    font-family: 'Allerta', sans-serif; ***REMOVED***
+  .landing-view__content__10EI9 .landing-view__logo__sWlFL ***REMOVED***
+    width: 33.33333em;
+    height: auto; ***REMOVED***
+  .landing-view__content__10EI9 .landing-view__linkBox__3EP8t ***REMOVED***
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; ***REMOVED***
+    .landing-view__content__10EI9 .landing-view__linkBox__3EP8t a ***REMOVED***
+      text-decoration: none;
+      color: #2b2b36; ***REMOVED***
+      .landing-view__content__10EI9 .landing-view__linkBox__3EP8t a:hover ***REMOVED***
+        color: #000000; ***REMOVED***
+/* Large Devices, Wide Screens */
+.login-view__container__2SVMp ***REMOVED***
+  width: 100%;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-line-pack: center;
+  align-content: center; ***REMOVED***
+
+.login-view__content__2Tpqn ***REMOVED***
+  width: 66.66667em;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-item-align: center;
+  align-self: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; ***REMOVED***
+  .login-view__content__2Tpqn .login-view__segment__hoM3H ***REMOVED***
+    width: 20.83333em;
+    min-height: 25em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; ***REMOVED***
+    .login-view__content__2Tpqn .login-view__segment__hoM3H .login-view__loginForm__3wfq9 ***REMOVED***
+      width: 80%;
+      height: 100%;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      justify-content: center;
+      -ms-flex-item-align: center;
+      align-self: center; ***REMOVED***
+/* Large Devices, Wide Screens */
+.resume-detail__container__2X5b5 ***REMOVED***
+  width: 100%;
+  height: 12.5em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; ***REMOVED***
+  .resume-detail__container__2X5b5 .resume-detail__infoBox__7wJkD ***REMOVED***
+    width: 15em;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    color: #ffffff; ***REMOVED***
+    .resume-detail__container__2X5b5 .resume-detail__infoBox__7wJkD .resume-detail__logo__1yVAq ***REMOVED***
+      width: 8.33333em;
+      height: auto;
+      margin: 0 0 0.41667em;
+      box-shadow: 0 0 0.83333em 0 black; ***REMOVED***
+  .resume-detail__container__2X5b5 .resume-detail__detailBox__1U_H1 ***REMOVED***
+    width: 100%;
+    height: 100%;
+    padding: 0.58333em; ***REMOVED***
+    .resume-detail__container__2X5b5 .resume-detail__detailBox__1U_H1 .resume-detail__title__Y-fl3 ***REMOVED***
+      height: 1.75em;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end; ***REMOVED***
+      .resume-detail__container__2X5b5 .resume-detail__detailBox__1U_H1 .resume-detail__title__Y-fl3 .resume-detail__company__1VN1k ***REMOVED***
+        font-family: "Oxygen", sans-serif;
+        font-weight: 700;
+        font-size: 1.66667em;
+        margin: 0; ***REMOVED***
+      .resume-detail__container__2X5b5 .resume-detail__detailBox__1U_H1 .resume-detail__title__Y-fl3 .resume-detail__role__12E9s ***REMOVED***
+        font-family: "Oxygen", sans-serif;
+        font-weight: 700;
+        font-size: 1.16667em; ***REMOVED***
+/* Large Devices, Wide Screens */
+.resume-view__content__3knls ***REMOVED***
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  padding: 0 0 8.33333em; ***REMOVED***
+
+h1 ***REMOVED***
+  font-family: 'Work Sans', sans-serif;
+  font-size: 3em;
+  line-height: 1.11111em;
+  color: #2b2b36;
+  font-weight: 700; ***REMOVED***
+
+h4 ***REMOVED***
+  font-size: 1.16667em;
+  color: #BDC3C7;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  margin: 0.41667em 0 0.41667em; ***REMOVED***
+
+.resume-view__info__2yvz- ***REMOVED***
+  font-size: 1.16667em;
+  line-height: 1.42857em;
+  color: #BDC3C7;
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 300;
+  margin: 0.35714em 0 0.71429em; ***REMOVED***
+
+.resume-view__container__JG8BZ ***REMOVED***
+  width: 66.66667em;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-item-align: center;
+  align-self: center; ***REMOVED***
+  @media only screen and (max-width: 768px) ***REMOVED***
+    .resume-view__container__JG8BZ ***REMOVED***
+      width: 100%; ***REMOVED*** ***REMOVED***
+  .resume-view__container__JG8BZ .resume-view__header__1N5Jc ***REMOVED***
+    width: 100%;
+    height: 41.66667em;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; ***REMOVED***
+  .resume-view__container__JG8BZ .resume-view__box__3LZ0y ***REMOVED***
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin: 0 0 4.16667em; ***REMOVED***
+    @media only screen and (max-width: 768px) ***REMOVED***
+      .resume-view__container__JG8BZ .resume-view__box__3LZ0y ***REMOVED***
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        align-items: center; ***REMOVED*** ***REMOVED***
+    .resume-view__container__JG8BZ .resume-view__box__3LZ0y .resume-view__left__2Jrd1 ***REMOVED***
+      width: 30%;
+      height: auto;
+      padding: 0 4.16667em 0 0; ***REMOVED***
+      @media only screen and (max-width: 768px) ***REMOVED***
+        .resume-view__container__JG8BZ .resume-view__box__3LZ0y .resume-view__left__2Jrd1 ***REMOVED***
+          width: 90%;
+          padding: 0 0 0 0; ***REMOVED*** ***REMOVED***
+    .resume-view__container__JG8BZ .resume-view__box__3LZ0y .resume-view__right__3N3gS ***REMOVED***
+      width: 70%;
+      height: auto; ***REMOVED***
+      @media only screen and (max-width: 768px) ***REMOVED***
+        .resume-view__container__JG8BZ .resume-view__box__3LZ0y .resume-view__right__3N3gS ***REMOVED***
+          width: 90%; ***REMOVED*** ***REMOVED***
+      .resume-view__container__JG8BZ .resume-view__box__3LZ0y .resume-view__right__3N3gS .resume-view__inner__luuHC ***REMOVED***
+        font-family: 'Work Sans', sans-serif;
+        font-size: 2em;
+        line-height: 1.33333em;
+        color: #2b2b36;
+        font-weight: 300; ***REMOVED***
+        .resume-view__container__JG8BZ .resume-view__box__3LZ0y .resume-view__right__3N3gS .resume-view__inner__luuHC strong ***REMOVED***
+          font-weight: 700; ***REMOVED***
+        .resume-view__container__JG8BZ .resume-view__box__3LZ0y .resume-view__right__3N3gS .resume-view__inner__luuHC small ***REMOVED***
+          font-size: 0.58333em;
+          line-height: 0.41667em; ***REMOVED***
+/* Large Devices, Wide Screens */
+.mainview__container__Q8DIi ***REMOVED***
+  width: 100%;
+  height: 100%;
+  background-image: url(/./assets/47717b56c4476b0a5585d80b2e26d2ce.jpg);
+  background-size: cover;
+  background-position: center center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -ms-flex-line-pack: center;
+  align-content: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; ***REMOVED***
+
+.mainview__content__VHoO2 ***REMOVED***
+  width: 66.66667em;
+  height: 25em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-item-align: center;
+  align-self: center;
+  background-color: white; ***REMOVED***
+
+/*# sourceMappingURL=main.css.map*/

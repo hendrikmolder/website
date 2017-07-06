@@ -1,6 +1,6 @@
 import React, ***REMOVED*** Component ***REMOVED*** from 'react'
 import ***REMOVED*** Link ***REMOVED*** from 'react-router-dom'
-import ***REMOVED*** Loader, Segment, Button, Icon ***REMOVED*** from 'semantic-ui-react'
+import ***REMOVED*** Segment, Button, Icon ***REMOVED*** from 'semantic-ui-react'
 import Recaptcha from 'react-recaptcha'
 
 import Navbar from '../../components/Navbar'
@@ -61,7 +61,6 @@ export default class ContactView extends Component ***REMOVED***
         <a href='mailto:info@molder.eu'>
           <Button color='blue' content='Get in touch' icon='send' labelPosition='left' />
         </a>
-        <Link to='/login'><Button color='green' content='Client Login' /></Link>
       </div>
     )
   ***REMOVED***

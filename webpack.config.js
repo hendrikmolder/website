@@ -6,10 +6,10 @@ const autoprefixer = require('autoprefixer');
 const ExtractTextPlugin = require('extract-text-webpack-plugin');
 
 module.exports = ***REMOVED***
-    entry: './app/index.jsx',
+    entry: './src/index.jsx',
     output: ***REMOVED***
         filename: 'bundle.js',
-        path: __dirname + '/dist',
+        path: __dirname + '/build',
         publicPath: '/'
     ***REMOVED***,
 
@@ -19,6 +19,9 @@ module.exports = ***REMOVED***
     resolve: ***REMOVED***
         extensions: ['*', '.js', '.jsx', 'ts', '.json', '.png'],
         modules: [path.resolve(__dirname, 'app'), 'node_modules'],
+        alias: ***REMOVED***
+            styles: 'src/styles'
+        ***REMOVED***
     ***REMOVED***,
 
     module: ***REMOVED***
@@ -42,9 +45,9 @@ module.exports = ***REMOVED***
             ***REMOVED***,
 
             // All output '.js' files will have any sourcemaps re-processed by 'source-map-loader'.
-            ***REMOVED*** 
-              enforce: 'pre', 
-              test: /\.js$/, 
+            ***REMOVED***
+              enforce: 'pre',
+              test: /\.js$/,
               use: 'source-map-loader',
             ***REMOVED***,
             ***REMOVED***
@@ -53,8 +56,15 @@ module.exports = ***REMOVED***
               use: ExtractTextPlugin.extract(***REMOVED***
                 fallback: ['style-loader', 'css-loader', 'sass-loader', 'postcss-loader'],
                 use: [
-                  ***REMOVED*** loader: 'css-loader', query: ***REMOVED*** modules: true, sourceMaps: false, localIdentName:'[name]__[local]__[hash:base64:5]' ***REMOVED******REMOVED***,
-                  'sass-loader', 'postcss-loader'
+                    ***REMOVED***
+                        loader: 'css-loader',
+                        query: ***REMOVED***
+                            modules: true,
+                            sourceMaps: false,
+                            localIdentName:'[name]__[local]__[hash:base64:5]'
+                        ***REMOVED***
+                    ***REMOVED***,
+                    'sass-loader', 'postcss-loader'
                 ],
               ***REMOVED***)
             ***REMOVED***,
