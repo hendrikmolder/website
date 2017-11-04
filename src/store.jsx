@@ -7,20 +7,21 @@ import promise from 'redux-promise-middleware'
 import createHistory from 'history/createBrowserHistory'
 
 import reducer from './reducers'
+import keys from '../.keys/firebase.json'
 
 // Firebase config
 const firebaseConfig = ***REMOVED***
-  apiKey: ***REMOVED***,
-  authDomain: ***REMOVED***,
-  databaseURL: ***REMOVED***,
-  projectId: ***REMOVED***,
-  storageBucket: ***REMOVED***,
-  messagingSenderId: ***REMOVED***
+  apiKey: keys.apiKey,
+  authDomain: keys.authDomain,
+  databaseURL: keys.databaseURL,
+  projectId: keys.projectId,
+  storageBucket: keys.storageBucket,
+  messagingSenderId: keys.messagingSenderId
 ***REMOVED***
 
 const config = ***REMOVED***
   userProfile: 'users',
-  enableLogging: false,
+  enableLogging: false
 ***REMOVED***
 
 const history = createHistory();
