@@ -1,17 +1,17 @@
-***REMOVED***
+{
   "name": "molder",
   "version": "1.0.0",
   "private": true,
-  "scripts": ***REMOVED***
+  "scripts": {
     "start": "webpack-dev-server --progress --inline --history-api-fallback",
     "prod": "webpack -p",
     "deploy": "webpack && firebase deploy",
     "test": "jest --verbose",
     "lint": "eslint src"
-  ***REMOVED***,
+  },
   "author": "",
   "license": "ISC",
-  "dependencies": ***REMOVED***
+  "dependencies": {
     "history": "^4.6.3",
     "prop-types": "^15.5.10",
     "react": "^15.5.4",
@@ -29,8 +29,8 @@
     "redux-promise-middleware": "^4.3.0",
     "redux-thunk": "^2.2.0",
     "semantic-ui-react": "^0.68.3"
-  ***REMOVED***,
-  "devDependencies": ***REMOVED***
+  },
+  "devDependencies": {
     "autoprefixer": "^6.7.7",
     "babel-core": "^6.24.1",
     "babel-eslint": "^7.2.3",
@@ -63,5 +63,5 @@
     "url-loader": "^0.5.8",
     "webpack": "^2.4.1",
     "webpack-dev-server": "^2.4.5"
-  ***REMOVED***
-***REMOVED***
+  }
+}

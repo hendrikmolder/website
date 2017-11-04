@@ -1,5 +1,5 @@
-***REMOVED***
-    "compilerOptions": ***REMOVED***
+{
+    "compilerOptions": {
         "outDir": "./dist/",
         "sourceMap": true,
         "noImplicitAny": true,
@@ -11,8 +11,8 @@
         "allowJs": true,
         "experimentalDecorators": true, 
         "removeComments": true
-    ***REMOVED***,
+    },
     "include": [
         "./app/**/*"
     ]
-***REMOVED***
+}

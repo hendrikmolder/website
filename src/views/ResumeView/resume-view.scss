@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Oxygen:400,700');
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,400,700&subset=latin-ext');
 
-.content ***REMOVED***
+.content {
   width: 100%;
   height: auto;
 
@@ -10,34 +10,34 @@
   flex-direction: column;
 
   padding: 0 0 em(100px);
-***REMOVED***
+}
 
-h1 ***REMOVED***
+h1 {
   font-family: 'Work Sans', sans-serif;
   font-size: em(36px);
   line-height: em(40px, 36px);
   color: #2b2b36;
   font-weight: 700;
-***REMOVED***
+}
 
-h4 ***REMOVED***
+h4 {
   font-size: em(14px);
   color: #BDC3C7;
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
   margin: em(5px) 0 em(5px);
-***REMOVED***
+}
 
-.info ***REMOVED***
+.info {
   font-size: em(14px);
   line-height: em(20px, 14px);
   color: #BDC3C7;
   font-family: 'Work Sans', sans-serif;
   font-weight: 300;
   margin: em(5px, 14px) 0 em(10px, 14px);
-***REMOVED***
+}
 
-.container ***REMOVED***
+.container {
   width: em(800px);
   height: auto;
 
@@ -45,11 +45,11 @@ h4 ***REMOVED***
   flex-direction: column;
   align-self: center;
 
-  @include tablet ***REMOVED***
+  @include tablet {
     width: 100%;
-  ***REMOVED***
+  }
 
-  .header ***REMOVED***
+  .header {
     width: 100%;
     height: em(500px);
 
@@ -57,54 +57,54 @@ h4 ***REMOVED***
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  ***REMOVED***
+  }
 
-  .box ***REMOVED***
+  .box {
     display: flex;
     width: 100%;
     height: auto;
     margin: 0 0 em(50px);
 
-    @include tablet ***REMOVED***
+    @include tablet {
       flex-direction: column;
       align-items: center;
-    ***REMOVED***
+    }
 
-    .left ***REMOVED***
+    .left {
       width: 30%;
       height: auto;
       padding: 0 em(50px) 0 0;
 
-      @include tablet ***REMOVED***
+      @include tablet {
         width: 90%;
         padding: 0 0 0 0;
-      ***REMOVED***
-    ***REMOVED***
+      }
+    }
 
-    .right ***REMOVED***
+    .right {
       width: 70%;
       height: auto;
 
-      @include tablet ***REMOVED***
+      @include tablet {
         width: 90%;
-      ***REMOVED***
+      }
 
-      .inner ***REMOVED***
+      .inner {
         font-family: 'Work Sans', sans-serif;
         font-size: em(24px);
         line-height: em(32px, 24px);
         color: #2b2b36;
         font-weight: 300;
 
-        strong ***REMOVED***
+        strong {
           font-weight: 700;
-        ***REMOVED***
+        }
 
-        small ***REMOVED***
+        small {
           font-size: em(14px, 24px);
           line-height: em(10px, 24px);
-        ***REMOVED***
-      ***REMOVED***
-    ***REMOVED***
-  ***REMOVED***
-***REMOVED***
+        }
+      }
+    }
+  }
+}

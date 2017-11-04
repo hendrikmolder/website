@@ -1,14 +1,14 @@
-***REMOVED***
-  "database": ***REMOVED***
+{
+  "database": {
     "rules": "database.rules.json"
-  ***REMOVED***,
-  "hosting": ***REMOVED***
+  },
+  "hosting": {
     "public": "build",
     "rewrites": [
-      ***REMOVED***
+      {
         "source": "**",
         "destination": "/index.html"
-      ***REMOVED***
+      }
     ]
-  ***REMOVED***
-***REMOVED***
+  }
+}

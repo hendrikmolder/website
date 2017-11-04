@@ -1,13 +1,13 @@
 @import '../../styles/main.scss';
 
-.container ***REMOVED***
+.container {
   //position: relative;
   width: 100%;
   height: em(150px);
 
   display: flex;
 
-  .infoBox ***REMOVED***
+  .infoBox {
     //background-color: #5B3256;
     width: em(180px);
     height: 100%;
@@ -19,43 +19,43 @@
 
     color: #ffffff;
 
-    .logo ***REMOVED***
+    .logo {
       width: em(100px);
       height: auto;
       //border-radius: em(3px);
       margin: 0 0 em(5px);
       box-shadow: 0 0 em(10px) 0 rgba(0,0,0,1);
-    ***REMOVED***
+    }
 
-  ***REMOVED***
+  }
 
-  .detailBox ***REMOVED***
+  .detailBox {
     //background-color: #EEEEEE;
     //border-left: em(7px) solid #BE90D4;
     width: 100%;
     height: 100%;
     padding: em(7px);
 
-    .title ***REMOVED***
+    .title {
       height: em(21px);
       display: flex;
       align-items: flex-end;
       
-      .company ***REMOVED***
+      .company {
         font-family: $brand-font;
         font-weight: 700;
         font-size: em(20px);
         margin: 0;
-      ***REMOVED***
+      }
 
-      .role ***REMOVED***
+      .role {
         font-family: $brand-font;
         font-weight: 700;
         font-size: em(14px);
 
-      ***REMOVED***
-    ***REMOVED***
+      }
+    }
 
 
-  ***REMOVED***
-***REMOVED***
+  }
+}

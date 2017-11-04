@@ -1,8 +1,8 @@
-import React, ***REMOVED*** Component, PropTypes ***REMOVED*** from 'react'
-import ***REMOVED*** Link ***REMOVED*** from 'react-router-dom'
-import ***REMOVED*** Loader, Segment, Button, Form, Icon ***REMOVED*** from 'semantic-ui-react'
-import ***REMOVED*** connect ***REMOVED*** from 'react-redux'
-import ***REMOVED*** firebaseConnect, isLoaded, isEmpty, dataToJS ***REMOVED*** from 'react-redux-firebase'
+import React, { Component, PropTypes } from 'react'
+import { Link } from 'react-router-dom'
+import { Loader, Segment, Button, Form, Icon } from 'semantic-ui-react'
+import { connect } from 'react-redux'
+import { firebaseConnect, isLoaded, isEmpty, dataToJS } from 'react-redux-firebase'
 import Recaptcha from 'react-recaptcha'
 
 import Navbar from '../../components/Navbar'
@@ -13,34 +13,34 @@ const styles = require('./login-view.scss')
   '/notes',
 ])
 @connect(
-  (***REMOVED*** firebase ***REMOVED***) => (***REMOVED***
+  ({ firebase }) => ({
     notes: dataToJS(firebase, '/notes'),
-  ***REMOVED***),
+  }),
 )
-export default class LoginView extends Component ***REMOVED***
+export default class LoginView extends Component {
 
-  static PropTypes = ***REMOVED***
+  static PropTypes = {
     notes: PropTypes.object,
     firebase: PropTypes.object,
-  ***REMOVED***
+  }
 
-  constructor(props) ***REMOVED***
+  constructor(props) {
     super(props)
-    this.state = ***REMOVED***
+    this.state = {
       displayLogin: true,
-    ***REMOVED***
+    }
 
     this.renderLogin = this.renderLogin.bind(this)
     this.userLogin = this.userLogin.bind(this)
-  ***REMOVED***
+  }
 
-  userLogin() ***REMOVED***
-    this.setState(***REMOVED*** displayLogin: false ***REMOVED***)
-  ***REMOVED***
+  userLogin() {
+    this.setState({ displayLogin: false })
+  }
 
-  renderLogin() ***REMOVED***
+  renderLogin() {
     return (
-      <div className=***REMOVED***styles.loginForm***REMOVED***>
+      <div className={styles.loginForm}>
         <Form>
           <Form.Field>
             <label>Email address</label>
@@ -57,24 +57,24 @@ export default class LoginView extends Component ***REMOVED***
               labelPosition='left'
               type='submit'
               content='Log In'
-              onClick=***REMOVED***this.userLogin***REMOVED***
+              onClick={this.userLogin}
             />
           </center>
         </Form>
       </div>
     )
-  ***REMOVED***
+  }
 
-  render() ***REMOVED***
+  render() {
     return (
-      <div className=***REMOVED***styles.container***REMOVED***>
+      <div className={styles.container}>
         <Navbar />
-        <div className=***REMOVED***styles.content***REMOVED***>
-          <Segment raised className=***REMOVED***styles.segment***REMOVED***>
-            ***REMOVED*** this.state.displayLogin ? this.renderLogin() : <Loader active size='big' />***REMOVED***
+        <div className={styles.content}>
+          <Segment raised className={styles.segment}>
+            { this.state.displayLogin ? this.renderLogin() : <Loader active size='big' />}
           </Segment>
         </div>
       </div>
     )
-  ***REMOVED***
-***REMOVED***
+  }
+}

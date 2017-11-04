@@ -1,23 +1,23 @@
-import React, ***REMOVED*** Component ***REMOVED*** from 'react'
-import ***REMOVED*** Provider ***REMOVED*** from 'react-redux'
+import React, { Component } from 'react'
+import { Provider } from 'react-redux'
 import PropTypes from 'prop-types'
 
 import router from '../../router'
 
 
-export default class Root extends Component ***REMOVED***
-    static propTypes = ***REMOVED***
+export default class Root extends Component {
+    static propTypes = {
         store: PropTypes.object.isrequired,
         history: PropTypes.object.isRequired,
-    ***REMOVED***
+    }
 
-    render() ***REMOVED***
-        const ***REMOVED*** store, history ***REMOVED*** = this.props;
+    render() {
+        const { store, history } = this.props;
 
         return (
-            <Provider store=***REMOVED***store***REMOVED***>
-                ***REMOVED***router(history)***REMOVED***
+            <Provider store={store}>
+                {router(history)}
             </Provider>
         )
-    ***REMOVED***
-***REMOVED***
+    }
+}

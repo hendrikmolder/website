@@ -1,61 +1,61 @@
-import React, ***REMOVED*** Component ***REMOVED*** from 'react'
-import ***REMOVED*** Link ***REMOVED*** from 'react-router-dom'
-import ***REMOVED*** Segment, Button, Icon ***REMOVED*** from 'semantic-ui-react'
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import { Segment, Button, Icon } from 'semantic-ui-react'
 import Recaptcha from 'react-recaptcha'
 
 import Navbar from '../../components/Navbar'
 
 const styles = require('./contact-view.scss');
 
-let callback = (response) => ***REMOVED***
+let callback = (response) => {
   console.log("Done!" + response)
-***REMOVED***
+}
 
-export default class ContactView extends Component ***REMOVED***
+export default class ContactView extends Component {
 
-  constructor(props) ***REMOVED***
+  constructor(props) {
     super(props)
 
-    this.state = ***REMOVED***
+    this.state = {
       displayEmail: null
-    ***REMOVED***
+    }
 
     this.verify = this.verify.bind(this)
     this.initialize = this.initialize.bind(this)
     this.renderReCaptcha = this.renderReCaptcha.bind(this)
     this.renderContactInfo = this.renderContactInfo.bind(this)
-  ***REMOVED***
+  }
 
-  verify() ***REMOVED***
-    return new Promise((res, err) => ***REMOVED***
-      this.setState(***REMOVED*** displayEmail: true ***REMOVED***)
-    ***REMOVED***).then(
+  verify() {
+    return new Promise((res, err) => {
+      this.setState({ displayEmail: true })
+    }).then(
       console.log(this.state.displayEmail)
     )
-  ***REMOVED***
+  }
 
-  initialize() ***REMOVED***
-   return new Promise((res, err) => ***REMOVED***
-     this.setState(***REMOVED*** displayEmail: false ***REMOVED***)
-   ***REMOVED***).then(
+  initialize() {
+   return new Promise((res, err) => {
+     this.setState({ displayEmail: false })
+   }).then(
      console.log(this.state.displayEmail)
    )
-  ***REMOVED***
+  }
 
-  renderReCaptcha() ***REMOVED***
+  renderReCaptcha() {
     return (
       <div>
         <Recaptcha
           sitekey='6LfJpfoSAAAAAFQf4Ll92SrPq9YVS-9vMrBaIQUV'
           render='explicit'
-          verifyCallback=***REMOVED***this.verify***REMOVED***
-          onloadCallback=***REMOVED***this.initialize***REMOVED***
+          verifyCallback={this.verify}
+          onloadCallback={this.initialize}
         />
       </div>
     )
-  ***REMOVED***
+  }
 
-  renderContactInfo() ***REMOVED***
+  renderContactInfo() {
     return(
       <div>
         <a href='mailto:info@molder.eu'>
@@ -63,18 +63,18 @@ export default class ContactView extends Component ***REMOVED***
         </a>
       </div>
     )
-  ***REMOVED***
+  }
 
-  render() ***REMOVED***
+  render() {
     return (
-      <div className=***REMOVED***styles.container***REMOVED***>
+      <div className={styles.container}>
         <Navbar />
-        <div className=***REMOVED***styles.content***REMOVED***>
-          <Segment raised className=***REMOVED***styles.segment***REMOVED***>
-            ***REMOVED*** this.state.displayEmail === true ? this.renderContactInfo() : this.renderReCaptcha() ***REMOVED***
+        <div className={styles.content}>
+          <Segment raised className={styles.segment}>
+            { this.state.displayEmail === true ? this.renderContactInfo() : this.renderReCaptcha() }
           </Segment>
         </div>
       </div>
     )
-  ***REMOVED***
-***REMOVED***
+  }
+}

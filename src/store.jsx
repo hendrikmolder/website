@@ -1,7 +1,7 @@
-import ***REMOVED*** createStore, compose, applyMiddleware ***REMOVED*** from 'redux'
-import ***REMOVED*** reactReduxFirebase ***REMOVED*** from 'react-redux-firebase'
-import ***REMOVED*** routerMiddleware ***REMOVED*** from 'react-router-redux'
-import ***REMOVED*** logger ***REMOVED*** from 'redux-logger'
+import { createStore, compose, applyMiddleware } from 'redux'
+import { reactReduxFirebase } from 'react-redux-firebase'
+import { routerMiddleware } from 'react-router-redux'
+import { logger } from 'redux-logger'
 import thunk from 'redux-thunk'
 import promise from 'redux-promise-middleware'
 import createHistory from 'history/createBrowserHistory'
@@ -10,19 +10,19 @@ import reducer from './reducers'
 import keys from '../.keys/firebase.json'
 
 // Firebase config
-const firebaseConfig = ***REMOVED***
+const firebaseConfig = {
   apiKey: keys.apiKey,
   authDomain: keys.authDomain,
   databaseURL: keys.databaseURL,
   projectId: keys.projectId,
   storageBucket: keys.storageBucket,
   messagingSenderId: keys.messagingSenderId
-***REMOVED***
+}
 
-const config = ***REMOVED***
+const config = {
   userProfile: 'users',
   enableLogging: false
-***REMOVED***
+}
 
 const history = createHistory();
 

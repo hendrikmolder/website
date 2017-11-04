@@ -1,6 +1,6 @@
-***REMOVED***
-  "rules": ***REMOVED***
+{
+  "rules": {
     ".read": "auth != null",
     ".write": "auth != null"
-  ***REMOVED***
-***REMOVED***
+  }
+}

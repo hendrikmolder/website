@@ -1,8 +1,8 @@
-export function fetchNotes() ***REMOVED***
-  return ***REMOVED***
+export function fetchNotes() {
+  return {
     type: 'FETCH_NOTES',
-    payload: ***REMOVED***
+    payload: {
       name: 'Hendrik'
-    ***REMOVED***
-  ***REMOVED***
-***REMOVED***
+    }
+  }
+}

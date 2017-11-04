@@ -1,10 +1,10 @@
-import React, ***REMOVED*** Component ***REMOVED*** from 'react'
-import ***REMOVED*** Link ***REMOVED*** from 'react-router-dom'
-import ***REMOVED*** Header, Icon ***REMOVED*** from 'semantic-ui-react'
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import { Header, Icon } from 'semantic-ui-react'
 
 const styles = require('./resume-detail.scss');
 
-export default class ResumeDetail extends Component ***REMOVED***
+export default class ResumeDetail extends Component {
 /*
  * startYear
  * endYear
@@ -12,23 +12,23 @@ export default class ResumeDetail extends Component ***REMOVED***
  * companyTitle
  * extraInformation
  */
-  constructor(props) ***REMOVED***
+  constructor(props) {
     super(props)
-  ***REMOVED***
+  }
 
-  render () ***REMOVED***
+  render () {
     return (
-      <div className=***REMOVED***styles.container***REMOVED***>
-        <div className=***REMOVED***styles.infoBox***REMOVED***>
-          <img src=***REMOVED***this.props.imagePath***REMOVED*** className=***REMOVED***styles.logo***REMOVED*** />
+      <div className={styles.container}>
+        <div className={styles.infoBox}>
+          <img src={this.props.imagePath} className={styles.logo} />
         </div>
-        <div className=***REMOVED***styles.detailBox***REMOVED***>
-          <div className=***REMOVED***styles.title***REMOVED***>
-            <p className=***REMOVED***styles.company***REMOVED***>***REMOVED***this.props.company***REMOVED***</p><p className=***REMOVED***styles.role***REMOVED***>, ***REMOVED***this.props.role***REMOVED***</p>          
+        <div className={styles.detailBox}>
+          <div className={styles.title}>
+            <p className={styles.company}>{this.props.company}</p><p className={styles.role}>, {this.props.role}</p>          
           </div>
-          ***REMOVED***this.props.tags***REMOVED***
+          {this.props.tags}
         </div>
       </div>
     )
-  ***REMOVED***
-***REMOVED***
+  }
+}

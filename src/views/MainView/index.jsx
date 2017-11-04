@@ -1,20 +1,20 @@
-import React, ***REMOVED*** Component ***REMOVED*** from 'react'
-import ***REMOVED*** Link ***REMOVED*** from 'react-router-dom'
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
 
 import ResumeView from '../ResumeView'
 
 const styles = require('./mainview.scss');
 
-export default class MainView extends Component ***REMOVED***
-  render () ***REMOVED***
+export default class MainView extends Component {
+  render () {
     return (
-      <div className=***REMOVED***styles.container***REMOVED***>
-        <div className=***REMOVED***styles.content***REMOVED***>
+      <div className={styles.container}>
+        <div className={styles.content}>
           <p>Hendrik Molder's homepage</p>
           <ResumeView />
 
         </div>
       </div>
     )
-  ***REMOVED***
-***REMOVED***
+  }
+}

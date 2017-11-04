@@ -1,17 +1,17 @@
-import React, ***REMOVED*** Component ***REMOVED*** from 'react'
-import ***REMOVED*** Link ***REMOVED*** from 'react-router-dom'
-import ***REMOVED*** Header, Icon ***REMOVED*** from 'semantic-ui-react'
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import { Header, Icon } from 'semantic-ui-react'
 
 const styles  = require('./navbar.scss')
 const logo    = require('./assets/new_molder.png')
 
-export default class Navbar extends Component ***REMOVED***
-  render () ***REMOVED***
+export default class Navbar extends Component {
+  render () {
     return (
-      <div className=***REMOVED***styles.navBar***REMOVED***>
-        <div className=***REMOVED***styles.container***REMOVED***>
-          <Link to='/'><img src=***REMOVED***logo***REMOVED*** className=***REMOVED***styles.navLogo***REMOVED*** /></Link>
-          <div className=***REMOVED***styles.linkBox***REMOVED***>
+      <div className={styles.navBar}>
+        <div className={styles.container}>
+          <Link to='/'><img src={logo} className={styles.navLogo} /></Link>
+          <div className={styles.linkBox}>
             <Link to='/'>home</Link>
             <Link to='/about'>about me</Link>
             <Link to='/notes'>notes</Link>
@@ -21,5 +21,5 @@ export default class Navbar extends Component ***REMOVED***
 
       </div>
     )
-  ***REMOVED***
-***REMOVED***
+  }
+}

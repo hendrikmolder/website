@@ -1,5 +1,5 @@
-***REMOVED***
-  "projects": ***REMOVED***
-    "default": ***REMOVED***
-  ***REMOVED***
-***REMOVED***
+{
+  "projects": {
+    "default": "cobalt-carver-689"
+  }
+}

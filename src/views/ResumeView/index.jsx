@@ -1,31 +1,31 @@
-import React, ***REMOVED*** Component ***REMOVED*** from 'react'
-import ***REMOVED*** Link ***REMOVED*** from 'react-router-dom'
-import ***REMOVED*** Header, Icon ***REMOVED*** from 'semantic-ui-react'
+import React, { Component } from 'react'
+import { Link } from 'react-router-dom'
+import { Header, Icon } from 'semantic-ui-react'
 
 import Navbar from '../../components/Navbar'
 import ResumeDetail from '../../components/ResumeDetail'
 
 const styles = require('./resume-view.scss')
 
-export default class ResumeView extends Component ***REMOVED***
-  render () ***REMOVED***
+export default class ResumeView extends Component {
+  render () {
     return (
-      <div className=***REMOVED***styles.content***REMOVED***>
+      <div className={styles.content}>
         <Navbar />
-        <div className=***REMOVED***styles.container***REMOVED***>
-          <div className=***REMOVED***styles.header***REMOVED***>
+        <div className={styles.container}>
+          <div className={styles.header}>
             <h1>HENDRIK MÖLDER</h1>
             <h4>Software Engineer</h4>
           </div>
-          <div className=***REMOVED***styles.box***REMOVED***>
-            <div className=***REMOVED***styles.left***REMOVED***>
-              <span className=***REMOVED***styles.info***REMOVED***>
+          <div className={styles.box}>
+            <div className={styles.left}>
+              <span className={styles.info}>
                 Do not hesitate to contact in regards of any projects and offers.
               </span>
             </div>
-            <div className=***REMOVED***styles.right***REMOVED***>
+            <div className={styles.right}>
               <h4>Bio.</h4>
-              <span className=***REMOVED***styles.inner***REMOVED***>
+              <span className={styles.inner}>
                 <strong>Hendrik Mölder</strong> is a software engineer from Estonia.
                 He is a co-founder of a startup called CODY and studying Computer
                 Science at the University of Manchester.
@@ -35,11 +35,11 @@ export default class ResumeView extends Component ***REMOVED***
               </span>
             </div>
           </div>
-          <div className=***REMOVED***styles.box***REMOVED***>
-            <div className=***REMOVED***styles.left***REMOVED***></div>
-            <div className=***REMOVED***styles.right***REMOVED***>
+          <div className={styles.box}>
+            <div className={styles.left}></div>
+            <div className={styles.right}>
               <h4>Professional Experience.</h4>
-                <span className=***REMOVED***styles.inner***REMOVED***>
+                <span className={styles.inner}>
                   <small>
                     <strong>Testlio</strong>, Software Engineer Intern [Summer 2016]<br />
                     <strong>CODY</strong>, Co-founder [2016 - present] <br />
@@ -52,5 +52,5 @@ export default class ResumeView extends Component ***REMOVED***
         </div>
       </div>
     )
-  ***REMOVED***
-***REMOVED***
+  }
+}

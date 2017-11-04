@@ -1,14 +1,14 @@
 $browser-context: 12;
 
 // Convert to em
-@function em($pixels, $context: $browser-context) ***REMOVED***
-  @if (unitless($pixels)) ***REMOVED***
+@function em($pixels, $context: $browser-context) {
+  @if (unitless($pixels)) {
     $pixels: $pixels * 1px;
-  ***REMOVED***
+  }
 
-  @if (unitless($context)) ***REMOVED***
+  @if (unitless($context)) {
     $context: $context * 1px;
-  ***REMOVED***
+  }
 
   @return $pixels / $context * 1em;
-***REMOVED***
+}

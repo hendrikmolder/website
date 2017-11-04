@@ -1,12 +1,12 @@
-import React, ***REMOVED*** Component, PropTypes ***REMOVED*** from "react"
-import ReactDOM, ***REMOVED*** render ***REMOVED*** from "react-dom"
-import ***REMOVED*** Provider ***REMOVED*** from 'react-redux'
-import ***REMOVED***
+import React, { Component, PropTypes } from "react"
+import ReactDOM, { render } from "react-dom"
+import { Provider } from 'react-redux'
+import {
   BrowserRouter as Router,
   Route,
   Switch,
   Link
-***REMOVED*** from 'react-router-dom'
+} from 'react-router-dom'
 
 import store from './store'
 
@@ -19,16 +19,16 @@ import ResumeView from './views/ResumeView'
 
 
 render((
-  <Provider store=***REMOVED*** store ***REMOVED***>
+  <Provider store={ store }>
     <Router>
       <Switch>
-        <Route exact path="/" component=***REMOVED***LandingView***REMOVED***/>
-        <Route path="/g" render=***REMOVED***() => (
+        <Route exact path="/" component={LandingView}/>
+        <Route path="/g" render={() => (
           <h1>Welcome!</h1>
-        )***REMOVED*** />
-        <Route path='/about' component=***REMOVED***ResumeView***REMOVED*** />
-        <Route path='/contact' component=***REMOVED***ContactView***REMOVED*** />
-        <Route path='/login' component=***REMOVED***LoginView***REMOVED*** />
+        )} />
+        <Route path='/about' component={ResumeView} />
+        <Route path='/contact' component={ContactView} />
+        <Route path='/login' component={LoginView} />
       </Switch>
     </Router>
   </Provider>
