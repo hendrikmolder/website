@@ -14,3 +14,6 @@ dist
 #Log
 logs
 *.log
+
+#API Keys
+.keys
