@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/hendrikmolder/website.svg?branch=master)](https://travis-ci.org/hendrikmolder/website)
+[![Test Coverage](https://codeclimate.com/github/codeclimate/codeclimate/badges/coverage.svg)](https://codeclimate.com/github/codeclimate/codeclimate/coverage)
 # Hendrik's React website
 Currently live at [beta.molder.eu](http://beta.molder.eu)
 
